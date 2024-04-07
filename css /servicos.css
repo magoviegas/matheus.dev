@@ -77,8 +77,8 @@ body {
 }
 
 
-.home {
-    /**height: 150vh; /*mudei era 100vh*/
+.servico {
+   /* height: 100vh; /*mudei era 100vh*/
 
     display: flex;
     align-items: center;
@@ -86,20 +86,20 @@ body {
     margin-top: 10%;
 }
 
-.home-content {
+.servico-content {
     
     display: flex;
     flex-direction: column;
 }
 
-.home-content h1 {
+.servico-content h1 {
     position: relative;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.home-content h1::before {
+.servico-content h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -111,7 +111,7 @@ body {
     animation-delay: 1s;
 }
 
-.home-content h3 {
+.servico-content h3 {
     position: relative;
     font-size: 32px;
     font-weight: 700;
@@ -119,7 +119,7 @@ body {
     margin-top: 40px;
 }
 
-.home-content h3::before {
+.servico-content h3::before {
     content: '';
     position: absolute;
     top: 0;
@@ -131,13 +131,13 @@ body {
     animation-delay: 1.3s;
 }
 
-.home-content p {
+.servico-content p {
     position: relative;
     font-size: 16px;
     margin: 15px 0 15px;
 }
 
-.home-content p::before {
+.servico-content p::before {
     content: '';
     position: absolute;
     top: 0;
@@ -149,7 +149,7 @@ body {
     animation-delay: 1.6s;
 }
 
-.home-content .btn-box {
+.servico-content .btn-box {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -157,7 +157,7 @@ body {
     height: 50px;
 }
 
-.home-content .btn-box::before {
+.servico-content .btn-box::before {
     content: '';
     position: absolute;
     top: 0;
@@ -320,8 +320,8 @@ footer{
         padding: 1.3rem 5%;
     }
 
-    .home {
-        height: 150vh;
+    .servico {
+        height: 300vh;
     }
 
     .skill {
@@ -381,8 +381,23 @@ footer{
         transition-delay: calc(.15s * var(--i));
     }
 
-    .home {
-        height: 150vh;
+    .servico {
+        height: 187vh;
+        margin-top: 10%;
+        
+        
+    }
+
+    .servico-content {
+        max-width: 100%;
+    }
+
+    p {
+        max-width: 100%;
+    }
+
+    .servico-content .btn-box {
+        width: 106%;
     }
 
     .skill {
