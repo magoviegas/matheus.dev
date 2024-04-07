@@ -35,9 +35,9 @@
            
             <div class="container">
                 <h4>Formulário de Contato</h4>
-                <form action="processar_formulario.php" method="POST">
+                <form action="processar_formulario.php; https://api.staticforms.xyz/submit" method="POST">
                   <label for="email">Email: <br></label>
-                  <input type="email" id="email" name="email" required>
+                  <input type="text" id="email" name="email" required>
 
                   <br>
 
@@ -52,6 +52,9 @@
                   <br>
             
                   <input type="submit" value="Enviar">
+
+                  <input type="hidden" name="accessKey" value="9a751541-90cb-4276-8693-a4504e551a48">
+                  <input type="hidden" name="redirectTo" value="https://matheus-dev-omega.vercel.app/contato.html/obrigado.html>
                 </form>
               </div>
        
