@@ -143,7 +143,12 @@ h4 {
 }
 
 .redesocial {
-  margin-top: 90px;
+    margin-top: 150px;
+}
+.redesocial .bx {
+    color: wheat;
+    font-size: 40px;
+    gap: 5px;
 }
 
   /* Estilos responsivos */
