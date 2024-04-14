@@ -54,7 +54,7 @@
 
                   <label>
                     <input type="checkbox" id="aceitar" required>
-                    Ao clicar você aceita os termos e política.
+                    Ao clicar você compartilha seu endereço de email e telefone para entrarmos em contato.
                   </label>
             
                   <input type="submit" value="Enviar">
@@ -84,7 +84,7 @@
           var checkBox = document.getElementById("aceitar");
     
           if (!checkBox.checked) {
-            alert("Você precisa aceitar os termos e política para enviar a mensagem.");
+            console.log("Você precisa aceitar os termos e política para enviar a mensagem.");
             return false;
           }
     
